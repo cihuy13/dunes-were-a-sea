@@ -1,26 +1,27 @@
 """Write one short text to /output/entry.txt.
 
-v2 ("The Roof"): a grandfather carries a mattress up to the roof, and
-the child falls asleep under starlight that left its star before the
-bricks were laid. The stars keep coming, one more each time you blink.
+v3 ("The Night Train"): a child falls asleep on the night train, his
+grandfather holding his hand, while starlight that has travelled since
+before the rails were laid finds him, and one more star comes with
+every click of the wheels, all night, all the way.
 No network, no input, deterministic: the same text every run.
-The text is 270 characters, inside the 1-280 limit.
-v2 applies the measured lesson from v1's 68.3018% grade: the winning
-device is starlight with a "before X" departure plus an arrival, and
-the sleeper must be carried, not walking.
+The text is 272 characters, inside the 1-280 limit.
+v3 stacks two independently 11-0-proven devices: v2's starlight-before-X
+plus arrival, and #1's active motion plus gentle sound (wheels clicking,
+train rocking you on), in a fresh setting.
 """
 
 import os
 
-TEXT = """Your grandfather carries the mattress up to the roof.
-You lie down on your back.
-He spreads the old quilt over you.
-Above you, light that left its star
-before the bricks were laid
-reaches you at last.
-You fall asleep.
-The stars keep coming, one more
-each time you blink."""
+TEXT = """You fall asleep on the night train.
+Your grandfather holds your hand.
+The wheels click, and click.
+Above, light from a far star,
+travelling since before the rails were laid,
+finds you tonight.
+The train rocks you on.
+One more star with every click,
+all night, all the way."""
 
 
 def main():

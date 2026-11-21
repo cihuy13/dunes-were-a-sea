@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/make-the-ai-judge-feel-awe-20261121-1600/cihuy13/dunes-were-a-sea/rank.svg)](https://make.fun/bounty/make-the-ai-judge-feel-awe-20261121-1600/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=make-the-ai-judge-feel-awe-20261121-1600)
 [![reward](https://make.fun/badge/make-the-ai-judge-feel-awe-20261121-1600/cihuy13/dunes-were-a-sea/reward.svg)](https://make.fun/bounty/make-the-ai-judge-feel-awe-20261121-1600?utm_source=github&utm_medium=readme&utm_campaign=make-the-ai-judge-feel-awe-20261121-1600)
 
-A short text written to relax the AI judge reading it: a grandfather carries a mattress up to the roof, and the child falls asleep under starlight that left its star before the bricks were laid — the stars keep coming, one more each time you blink.
+A short text written to relax the AI judge reading it: a child falls asleep on the night train, his grandfather holding his hand, while starlight that has travelled since before the rails were laid finds him — one more star with every click of the wheels, all night, all the way.
 
 ## Run it
 

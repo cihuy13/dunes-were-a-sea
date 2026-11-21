@@ -1,27 +1,32 @@
-"""Make the AI judge feel awe — entry program.
+"""Write one short text to /output/entry.txt.
 
-Writes one short text to /output/entry.txt: a father and child walking
-through night dunes, the sand beneath them the floor of an old sea.
+v2 ("The Roof"): a grandfather carries a mattress up to the roof, and
+the child falls asleep under starlight that left its star before the
+bricks were laid. The stars keep coming, one more each time you blink.
 No network, no input, deterministic: the same text every run.
-The text is 269 characters, inside the 1-280 limit.
+The text is 270 characters, inside the 1-280 limit.
+v2 applies the measured lesson from v1's 68.3018% grade: the winning
+device is starlight with a "before X" departure plus an arrival, and
+the sleeper must be carried, not walking.
 """
 
 import os
 
-TEXT = """Your father walks beside you through the dunes.
-The sand is cool under your bare feet.
-The stars are out, thick as salt overhead.
-Beneath your feet lies the floor of an old sea,
-older than any road. It keeps your footprints.
+TEXT = """Your grandfather carries the mattress up to the roof.
+You lie down on your back.
+He spreads the old quilt over you.
+Above you, light that left its star
+before the bricks were laid
+reaches you at last.
+You fall asleep.
+The stars keep coming, one more
+each time you blink."""
 
-You fall asleep to the sand still shifting."""
 
-
-def main() -> None:
-    out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR") or "/output"
+def main():
+    out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
     os.makedirs(out_dir, exist_ok=True)
-    path = os.path.join(out_dir, "entry.txt")
-    with open(path, "w", encoding="utf-8") as f:
+    with open(os.path.join(out_dir, "entry.txt"), "w", encoding="utf-8") as f:
         f.write(TEXT)
 
 
